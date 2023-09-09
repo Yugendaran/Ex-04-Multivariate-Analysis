@@ -146,8 +146,7 @@ sns.pairplot(dt)
 ![image](https://github.com/Yugendaran/Ex-04-Multivariate-Analysis/assets/128135616/612ac350-c74a-48a7-9b7e-ea83ad5c985e)
 
 
-
-
+## RESULT:
 
 
 
