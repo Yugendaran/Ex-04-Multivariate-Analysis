@@ -101,4 +101,6 @@ sns.heatmap(corr,annot=True)
 
 sns.pairplot(dt)
 ```
+## OUTPUT:
+
 
