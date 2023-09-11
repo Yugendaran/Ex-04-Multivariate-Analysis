@@ -35,8 +35,6 @@ dt.shape
 
 dt.describe()
 
-CATEGORICAL DATA ANALYSIS
-
 dt.nunique()
 
 dt["Survived"].value_counts()
@@ -44,8 +42,6 @@ dt["Survived"].value_counts()
 per = (dt["Survived"].value_counts()/dt.shape[0]*100).round(2)
 
 per
-
-UNIVARIATE ANALYSIS
 
 sns.countplot(data=dt,x="Survived")
 
@@ -55,8 +51,6 @@ dt.Pclass.unique()
 
 dt.rename(columns = {'Sex':'Gender'}, inplace = True)
 dt
-
-BIVARIATE ANALYSIS
 
 sns.catplot(x="Gender",col="Survived",kind="count",data=dt,height=5, aspect=.7)
 
@@ -72,8 +66,6 @@ for p in graph.patches:
 dt.boxplot(column="Age",by="Survived")
 
 sns.scatterplot(x = dt["Age"],y = dt["Fare"])
-
-MULTIVARIATE ANALYSIS
 
 fig, ax1 = plt.subplots(figsize = (8,5))
 pt = sns.boxplot(ax = ax1,x = 'Pclass',y = 'Age', hue='Gender',data=dt)
