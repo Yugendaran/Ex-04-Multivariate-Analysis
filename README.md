@@ -1,4 +1,6 @@
-# Ex-04-Multivariate-Analysis
+# Ex NO : 04 Multivariate Analysis
+
+## DATE : 
 
 ## AIM:
 To perform Multivariate EDA on the given data set.
@@ -7,23 +9,35 @@ To perform Multivariate EDA on the given data set.
 Exploratory data analysis is used to understand the messages within a dataset. This technique involves many iterative processes to ensure that the cleaned data is further sorted to better understand the useful meaning.The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
 
 ## ALGORITHM:
-Step1:Import the built libraries required to perform EDA and outlier removal.
 
-Step2:Read the given csv file.
+### Step1:
+Import the built libraries required to perform EDA and outlier removal.
 
-Step3:Convert the file into a dataframe and get information of the data.
+### Step2:
+Read the given csv file.
 
-Step4:Return the objects containing counts of unique values using (value_counts()).
+### Step3:
+Convert the file into a dataframe and get information of the data.
 
-Step5:Plot the counts in the form of Histogram or Bar Graph.
+### Step4:
+Return the objects containing counts of unique values using (value_counts()).
 
-Step6:Use seaborn the bar graph comparison of data can be viewed.
+### Step5:
+Plot the counts in the form of Histogram or Bar Graph.
 
-Step7:Find the pairwise correlation of all columns in the dataframe.corr()
+### Step6:
+Use seaborn the bar graph comparison of data can be viewed.
 
-Step8:Save the final data set into the file.
+### Step7:
+Find the pairwise correlation of all columns in the dataframe.corr()
 
-## PROGRAM:
+### Step8:
+Save the final data set into the file.
+
+## CODE:
+DEVELOPED BY : YUGENDARAN . G
+
+ REGISTER NO : 212221220063
 ```
 import pandas as pd
 import numpy as np
